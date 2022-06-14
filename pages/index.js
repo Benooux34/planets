@@ -61,7 +61,7 @@ export default function Home() {
       <div className="lg:ml-[10%] lg:mr-[50%] pt-[50px] lg:pt-[150px]">
         <div className="grid text-center lg:text-left">
           <span className="text-white text-7xl lg:text-8xl">Explorez le système solaire</span>
-          <span className="text-gray-200 text-2xl">Venez découvrir toutes les planètes du système solaire ! Vous allez pouvoir retrouver les planètes en 3D et pleins d'informations importantes.</span>
+          <span className="text-gray-200 text-2xl">Venez découvrir toutes les planètes du système solaire ! Vous allez pouvoir retrouver les planètes en 3D et des informations importantes sur le système solaire.</span>
         </div>
         <div className="text-center lg:text-left">
           <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white text-3xl border border-2 mt-5 px-10 py-3">Visitez !</motion.button>
