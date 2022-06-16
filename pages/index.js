@@ -4,7 +4,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react';
 import Link from "next/link"
 
-import { AiFillGithub } from "react-icons/ai";
+import Header from '../components/Header';
 
 export default function Home() {
 
@@ -47,16 +47,7 @@ export default function Home() {
       </Head>
 
       {/* Header */}
-      <div className="h-[60px] bg-black border border-black border-b-white border-b-2 flex justify-between items-center">
-        <div>
-          <h1 className="text-white text-2xl ml-[10%]">Freedom|Planets</h1>
-        </div>
-        <Link href="https://github.com/Benooux34?tab=repositories">
-          <div className="mr-[1%] cursor-pointer">
-            <AiFillGithub color="white" fontSize={30} />
-          </div>
-        </Link>
-      </div>
+      <Header />
 
       <div className="lg:ml-[10%] lg:mr-[50%] pt-[50px] lg:pt-[10%]">
         <div className="grid text-center lg:text-left">
