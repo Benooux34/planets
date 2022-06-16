@@ -22,7 +22,7 @@ function planets() {
                 </Canvas>
             </div>
             <div className="text-white p-4"> 
-                <p>La Terre est la troisième planète par ordre d'éloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que par le diamètre. Par ailleurs, elle est le seul objet céleste connu pour abriter la vie.</p>
+                <p>La Terre est la troisième planète par ordre déloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que par le diamètre. Par ailleurs, elle est le seul objet céleste connu pour abriter la vie.</p>
             </div>
             <div className="text-white text-center">
                 <button className="effetneon py-2 px-3 text-xl">En Savoir Plus</button>
