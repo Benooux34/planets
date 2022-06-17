@@ -1,10 +1,20 @@
-import { OrbitControls } from '@react-three/drei'
+import { OrbitControls, useProgress, Html } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import Head from 'next/head'
-import React from 'react'
+import React, { Suspense } from 'react'
 import Header from "../components/Header"
 import Model3D from "../components/Model3D"
 import { motion } from "framer-motion"
+
+
+function Loader() {
+  const { progress } = useProgress()
+  return (
+    <Html center>
+      {progress} % loaded
+    </Html>
+  )
+}
 
 function test() {
   return (
@@ -22,17 +32,15 @@ function test() {
         `}
         </style>
         </Head>
-        <Header />
-
-          
-
+            <Header />
             <Canvas camera={{fov: 75, position: [0, 8, 13]}}>
+              <Suspense fallback={<Loader />}>
                 <ambientLight />
                 <pointLight position={[10, 10, 10]} />
                 <OrbitControls />
                 <Model3D />
+              </Suspense>
             </Canvas>
-
     </div>
   )
 }
