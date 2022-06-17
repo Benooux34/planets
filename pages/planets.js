@@ -32,55 +32,55 @@ function planets() {
         >
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Soleil</span>
-                <Image src="/sun.jpg" height={250} width={250} />
+                <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
                 <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d'environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl mb-5">Mercure</span>
-                <Image src="/mercure.jpg" height={220} width={220} />
+                <Image src="/mercure.jpg" height={220} width={220} alt="Mercure" />
                 <span className="text-white text-lg p-5">Mercure est la planète la plus proche du Soleil et la moins massive du Système solaire. Son éloignement au Soleil est compris entre 0,31 et 0,47 unité astronomique (soit 46 et 70 millions de kilomètres), ce qui correspond à une...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Venus</span>
-                <Image src="/venus.jpg" height={270} width={400} />
+                <Image src="/venus.jpg" height={270} width={400} alt="Venus" />
                 <span className="text-white text-lg p-5">Vénus est la deuxième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la sixième plus grosse aussi bien par la masse que le diamètre. Elle doit son nom à la déesse romaine de l&apos;amour...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Terre</span>
-                <Image src="/terre.jpg" height={250} width={250} />
+                <Image src="/terre.jpg" height={250} width={250} alt="Terre" />
                 <span className="text-white text-lg p-5">La Terre est la troisième planète par ordre d&apos;éloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que par le diamètre. Par ailleurs, elle est le seul objet céleste connu pour abriter la vie...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Mars</span>
-                <Image src="/mars.jpg" height={250} width={250} />
+                <Image src="/mars.jpg" height={250} width={250} alt="Mars" />
                 <span className="text-white text-lg p-5">Mars (prononcé en français : /maʁs/) est la quatrième planète du Système solaire par ordre croissant de la distance au Soleil et la deuxième par ordre croissant de la taille et de la masse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Jupiter</span>
-                <Image src="/jupiter.jpg" height={250} width={250} />
+                <Image src="/jupiter.jpg" height={250} width={250} alt="Jupiter" />
                 <span className="text-white text-lg p-5">Jupiter est la cinquième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Saturne</span>
-                <Image src="/saturne.jpg" height={350} width={500} />
+                <Image src="/saturne.jpg" height={350} width={500} alt="Saturne" />
                 <span className="text-white text-lg p-5">Saturne est la sixième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la deuxième plus grande par la taille et la masse après Jupiter, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Uranus</span>
-                <Image src="/uranus.jpg" height={250} width={250} />
+                <Image src="/uranus.jpg" height={250} width={250} alt="Uranus" />
                 <span className="text-white text-lg p-5">Uranus est la septième planète du Système solaire par ordre d&apos;éloignement au Soleil. Elle orbite autour de celui-ci à une distance d&apos;environ 19,2 unités astronomiques (2,87 milliards de kilomètres), avec une période...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl mb-5">Neptune</span>
-                <Image src="/neptune.jpg" height={250} width={250} />
+                <Image src="/neptune.jpg" height={250} width={250} alt="Neptune" />
                 <span className="text-white text-lg p-5">Neptune est la huitième planète par ordre d&apos;éloignement au Soleil et la plus éloignée connue du Système solaire. Elle orbite autour du Soleil à une distance d&apos;environ 30,1 au (4,5 milliards de kilomètres), avec une excentricité orbitale...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
@@ -98,55 +98,55 @@ function planets() {
         >
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Soleil</span>
-                <Image src="/sun.jpg" height={250} width={250} />
+                <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
                 <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl mb-5">Mercure</span>
-                <Image src="/mercure.jpg" height={220} width={220} />
+                <Image src="/mercure.jpg" height={220} width={220} alt="Mercure" />
                 <span className="text-white text-lg p-5">Mercure est la planète la plus proche du Soleil et la moins massive du Système solaire. Son éloignement au Soleil est compris entre 0,31 et 0,47 unité astronomique (soit 46 et 70 millions de kilomètres), ce qui correspond à une...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Venus</span>
-                <Image src="/venus.jpg" height={270} width={400} />
+                <Image src="/venus.jpg" height={270} width={400} alt="Venus" />
                 <span className="text-white text-lg p-5">Vénus est la deuxième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la sixième plus grosse aussi bien par la masse que le diamètre. Elle doit son nom à la déesse romaine de l&apos;amour...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Terre</span>
-                <Image src="/terre.jpg" height={250} width={250} />
+                <Image src="/terre.jpg" height={250} width={250} alt="Terre" />
                 <span className="text-white text-lg p-5">La Terre est la troisième planète par ordre d&apos;éloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que par le diamètre. Par ailleurs, elle est le seul objet céleste connu pour abriter la vie...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Mars</span>
-                <Image src="/mars.jpg" height={250} width={250} />
+                <Image src="/mars.jpg" height={250} width={250} alt="Mars" />
                 <span className="text-white text-lg p-5">Mars (prononcé en français : /maʁs/) est la quatrième planète du Système solaire par ordre croissant de la distance au Soleil et la deuxième par ordre croissant de la taille et de la masse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Jupiter</span>
-                <Image src="/jupiter.jpg" height={250} width={250} />
+                <Image src="/jupiter.jpg" height={250} width={250} alt="Jupiter" />
                 <span className="text-white text-lg p-5">Jupiter est la cinquième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Saturne</span>
-                <Image src="/saturne.jpg" height={350} width={500} />
+                <Image src="/saturne.jpg" height={350} width={500} alt="Saturne" />
                 <span className="text-white text-lg p-5">Saturne est la sixième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la deuxième plus grande par la taille et la masse après Jupiter, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Uranus</span>
-                <Image src="/uranus.jpg" height={250} width={250} />
+                <Image src="/uranus.jpg" height={250} width={250} alt="Uranus" />
                 <span className="text-white text-lg p-5">Uranus est la septième planète du Système solaire par ordre d&apos;éloignement au Soleil. Elle orbite autour de celui-ci à une distance d&apos;environ 19,2 unités astronomiques (2,87 milliards de kilomètres), avec une période...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl mb-5">Neptune</span>
-                <Image src="/neptune.jpg" height={250} width={250} />
+                <Image src="/neptune.jpg" height={250} width={250} alt="Neptune" />
                 <span className="text-white text-lg p-5">Neptune est la huitième planète par ordre d&apos;éloignement au Soleil et la plus éloignée connue du Système solaire. Elle orbite autour du Soleil à une distance d&apos;environ 30,1 au (4,5 milliards de kilomètres), avec une excentricité orbitale...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
@@ -159,55 +159,55 @@ function planets() {
         <div className="h-[75%] mt-5 mx-5 grid grid-cols-1 gap-y-5 md:hidden">
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Soleil</span>
-                <Image src="/sun.jpg" height={250} width={250} />
+                <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
                 <span className="text-white text-lg">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl mb-5">Mercure</span>
-                <Image src="/mercure.jpg" height={220} width={220} />
+                <Image src="/mercure.jpg" height={220} width={220} alt="Mercure" />
                 <span className="text-white text-lg">Mercure est la planète la plus proche du Soleil et la moins massive du Système solaire. Son éloignement au Soleil est compris entre 0,31 et 0,47 unité astronomique (soit 46 et 70 millions de kilomètres), ce qui correspond à une...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Venus</span>
-                <Image src="/venus.jpg" height={270} width={400} />
+                <Image src="/venus.jpg" height={270} width={400} alt="Venus" />
                 <span className="text-white text-lg">Vénus est la deuxième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la sixième plus grosse aussi bien par la masse que le diamètre. Elle doit son nom à la déesse romaine de l&apos;amour...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Terre</span>
-                <Image src="/terre.jpg" height={250} width={250} />
+                <Image src="/terre.jpg" height={250} width={250} alt="Terre" />
                 <span className="text-white text-lg">La Terre est la troisième planète par ordre d&apos;éloignement au Soleil et la cinquième plus grande du Système solaire aussi bien par la masse que par le diamètre. Par ailleurs, elle est le seul objet céleste connu pour abriter la vie...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Mars</span>
-                <Image src="/mars.jpg" height={250} width={250} />
+                <Image src="/mars.jpg" height={250} width={250} alt="Mars" />
                 <span className="text-white text-lg">Mars (prononcé en français : /maʁs/) est la quatrième planète du Système solaire par ordre croissant de la distance au Soleil et la deuxième par ordre croissant de la taille et de la masse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Jupiter</span>
-                <Image src="/jupiter.jpg" height={250} width={250} />
+                <Image src="/jupiter.jpg" height={250} width={250} alt="Jupiter" />
                 <span className="text-white text-lg">Jupiter est la cinquième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la plus grande par la taille et la masse devant Saturne, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl p-5">Saturne</span>
-                <Image src="/saturne.jpg" height={350} width={500} />
+                <Image src="/saturne.jpg" height={350} width={500} alt="Saturne" />
                 <span className="text-white text-lg p-5">Saturne est la sixième planète du Système solaire par ordre d&apos;éloignement au Soleil, et la deuxième plus grande par la taille et la masse après Jupiter, qui est comme elle une planète géante gazeuse...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl mb-5">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Uranus</span>
-                <Image src="/uranus.jpg" height={250} width={250} />
+                <Image src="/uranus.jpg" height={250} width={250} alt="Uranus" />
                 <span className="text-white text-lg">Uranus est la septième planète du Système solaire par ordre d&apos;éloignement au Soleil. Elle orbite autour de celui-ci à une distance d&apos;environ 19,2 unités astronomiques (2,87 milliards de kilomètres), avec une période...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl mb-5">Neptune</span>
-                <Image src="/neptune.jpg" height={250} width={250} />
+                <Image src="/neptune.jpg" height={250} width={250} alt="Neptune" />
                 <span className="text-white text-lg">Neptune est la huitième planète par ordre d&apos;éloignement au Soleil et la plus éloignée connue du Système solaire. Elle orbite autour du Soleil à une distance d&apos;environ 30,1 au (4,5 milliards de kilomètres), avec une excentricité orbitale...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
