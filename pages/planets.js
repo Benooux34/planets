@@ -37,7 +37,7 @@ function planets() {
                 <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
                 <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d&apos;une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-2xl font-medium text-white group bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 group-hover:from-purple-500 group-hover:to-purple-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black group-hover:bg-opacity-0">
+                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black group-hover:bg-opacity-0">
                         Explorez !
                     </span>
                 </motion.button>
