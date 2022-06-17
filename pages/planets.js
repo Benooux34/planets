@@ -33,7 +33,7 @@ function planets() {
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Soleil</span>
                 <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
-                <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d'environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
+                <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d&apos;une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
@@ -99,7 +99,7 @@ function planets() {
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
                 <span className="text-white text-5xl">Soleil</span>
                 <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
-                <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
+                <span className="text-white text-lg p-5">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d&apos;une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </SwiperSlide>
             <SwiperSlide className="bg-black border border-white border-2 mx-5 flex flex-col justify-center items-center">
@@ -160,7 +160,7 @@ function planets() {
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
                 <span className="text-white text-5xl">Soleil</span>
                 <Image src="/sun.jpg" height={250} width={250} alt="Soleil" />
-                <span className="text-white text-lg">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d'une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
+                <span className="text-white text-lg">Le Soleil est l&apos;étoile du Système solaire. Dans la classification astronomique, c&apos;est une étoile de type naine jaune d&apos;une masse d&apos;environ 1,989 1 × 1030 kg , composée d&apos;hydrogène (75 % de la masse ou 92...</span>
                 <motion.button whileHover={{scale: 1.1}} whileTap={{scale: 0.95}} className="text-white border border-white border-2 px-3 py-2 text-2xl">Explorez !</motion.button>
             </div>
             <div className="bg-black border border-white border-2 flex flex-col justify-center items-center p-5">
